@@ -1,0 +1,89 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+.wppt-wrapper .wppt-header-wrapper button,
+.wppt-wrapper .wppt-header-wrapper button[disabled]:hover,
+.wppt-wrapper .wppt-header-wrapper button[disabled]:focus,
+.wppt-wrapper .wppt-header-wrapper input[type="button"],
+.wppt-wrapper .wppt-header-wrapper input[type="button"][disabled]:hover,
+.wppt-wrapper .wppt-header-wrapper input[type="button"][disabled]:focus,
+.wppt-wrapper .wppt-header-wrapper input[type="reset"],
+.wppt-wrapper .wppt-header-wrapper input[type="reset"][disabled]:hover,
+.wppt-wrapper .wppt-header-wrapper input[type="reset"][disabled]:focus,
+.wppt-wrapper .wppt-header-wrapper input[type="submit"],
+.wppt-wrapper .wppt-header-wrapper input[type="submit"][disabled]:hover,
+.wppt-wrapper .wppt-header-wrapper input[type="submit"][disabled]:focus {
+	font-family: fontawesome;
+}
+
+.wppt-wrapper h3.wppt-post-title {
+  font-weight: normal;
+}
+
+h3.wppt-post-title a:hover {
+  opacity: .8;
+}
+ 
+.wppt-wrapper .wppt-thumbnail-wrapper {
+  overflow: hidden;
+	position: relative;
+	display: inline-block;
+}
+.wppt-wrapper .wppt-content {
+	display: inline-block;
+	position: relative;
+}
+.wppt-wrapper ul.wppt-post-container{
+	margin:0;
+	padding:0;
+}
+.wppt-wrapper .wppt-header-wrapper {
+  width: 100%;
+}
+.wppt-wrapper .wppt-clear-section {
+	clear: both;
+}
+
+.wppt-wrapper .wppt-post-wrapper .wppt-post-container li.wppt-post {
+	list-style:none;
+  clear: both;
+  box-sizing: content-box!important;
+}
+
+.wppt-content > div {
+  margin-bottom: 5px;
+}
+
+.wppt-star::before {
+  content: "\f005";
+  font-family: fontawesome;
+	color: #e3cf7a;
+}
+
+.wppt-post-rating-1 .wppt-star:nth-child(5)::before,
+.wppt-post-rating-1 .wppt-star:nth-child(4)::before,
+.wppt-post-rating-1 .wppt-star:nth-child(3)::before,
+.wppt-post-rating-1 .wppt-star:nth-child(2)::before {
+  content: "\f006";
+}
+
+.wppt-post-rating-2 .wppt-star:nth-child(5)::before,
+.wppt-post-rating-2 .wppt-star:nth-child(4)::before,
+.wppt-post-rating-2 .wppt-star:nth-child(3)::before {
+  content: "\f006";
+}
+
+.wppt-post-rating-3 .wppt-star:nth-child(5)::before,
+.wppt-post-rating-3 .wppt-star:nth-child(4)::before {
+  content: "\f006";
+}
+
+.wppt-post-rating-4 .wppt-star:nth-child(5)::before {
+  content: "\f006";
+}
+
+.wppt-wrapper .wppt-navigation i:hover {
+  cursor: pointer;
+}
